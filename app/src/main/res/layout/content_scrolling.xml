@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.selecto.vladrevuk.test.app.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/LinearPhoneMobile"
+            android:gravity="center|left"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:tag="icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:tag="title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:tag="text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/LinearPhoneHome"
+            android:gravity="center|left"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:tag="icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:tag="title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:tag="text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/LinearPhoneWork"
+            android:gravity="center|left"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:tag="icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:tag="title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:tag="text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/LinearPhoneOther"
+            android:gravity="center|left"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:tag="icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:tag="title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:tag="text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/viewEmail"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/LinearEmailWork"
+            android:gravity="center|left"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:tag="icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:tag="title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:tag="text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/LinearEmailHome"
+            android:gravity="center|left"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:tag="icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:tag="title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:tag="text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/LinearEmailOther"
+            android:gravity="center|left"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:tag="icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:tag="title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:tag="text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/viewAddress"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/LinearAddressWork"
+            android:gravity="center|left"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:tag="icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:tag="title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:tag="text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/LinearAddressHome"
+            android:gravity="center|left"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:tag="icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:tag="title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:tag="text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/LinearAddressOther"
+            android:gravity="center|left"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:tag="icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:tag="title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:tag="text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="359223556"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
